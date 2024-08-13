@@ -1,0 +1,67 @@
+/*Configuraçoes globais*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Tilt Neon", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(7,32,255);
+    background: linear-gradient(180deg, rgba(7,32,255,1) 0%, rgba(15,48,205,1) 31%, rgba(14,156,161,1) 100%, rgba(142,251,255,0.8799894957983193) 100%);
+}
+
+#container{
+    background-color: midnightblue;
+    opacity: 0.7;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 320px;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+button{
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.titulo{
+    margin-top: 15px;
+}
+
+.temperatura{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.box-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.umidade{
+    margin-top: 15px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/main.js"defer></script>
+    <title>App Previsão do Tempo</title>
+</head>
+<body>
+    <div id="container">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <input type="text" class="input-cidade" placeholder="buscar cidade">
+        <button class="btn-pesquisa" onclick="ColetarDado()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <div class="box-media">
+        <h2 class="titulo">Aracaju</h2>
+        <p class="temperatura">32 °C</p>
+        <div class="box-menor">
+        <img class="img-previsao" src="https://openweathermap.org/img/wn/02d.png" alt="">
+        <p class="texto-previsao">Nublado</p>
+    </div>       
+        <p class="umidade">Umidade Relativa do ar: 85%</p>
+        <p class="vento"> Velocidade do vento:</p>
+    </div>
+    
+    
+    </div>
+    
+</body>
+</html>
